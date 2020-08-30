@@ -1,0 +1,61 @@
+
+html,body{
+    height:100%;
+}
+
+.video-wrapper{
+    height:100%;
+    position: relative;
+}
+#logo{
+    position:absolute;
+    right:20px;
+    top:10px;
+    width:10%;
+    height:10%;
+    z-index: 1;
+    opacity: .8;   
+} 
+#my-video{
+    padding:0;
+}
+
+/* .video-wrapper:before{
+   
+    content:"";
+    position:absolute;
+    width:20px;
+    height:20px;
+  
+    background: url(images.png);
+    top:20px;
+    right:20px;
+    z-index: 10;
+    
+} */
+#my-video{
+    width:100%;
+    height:100%;
+}
+.vjs-matrix .vjs-big-play-button {
+    border-color: #00ff00;
+}
+.vjs-matrix .vjs-playing{
+  color: #00ff00;
+}
+.vjs-matrix.video-js  .vjs-big-play-button{
+    border-color: darkmagenta;
+    background-color: rgba(56, 56, 255, 0.685);
+    width:46px;
+    border-radius: 50%;
+    color:white;
+}
+.vjs-matrix.video-js  .vjs-big-play-button:hover{
+    color: rgba(56, 56, 255, 0.685);
+    background-color:white;
+    border-color: black;
+}
+.vjs-matrix.video-js  .vjs-big-play-button:active{
+    color:red;
+}
+
